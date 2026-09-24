@@ -205,6 +205,8 @@ final class SnakeGame implements Game
             new Point($startX, $startY),
             new Point($startX - 1, $startY),
             new Point($startX - 2, $startY),
+            new Point($startX - 3, $startY),
+            new Point($startX - 4, $startY),
         ];
 
         $this->spawnFood();
