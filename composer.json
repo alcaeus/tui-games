@@ -3,11 +3,12 @@
     "description": "Collection of CLI games to be used in Symfony TUI applications",
     "type": "library",
     "require": {
-        "symfony/tui": "8.2.x-dev"
+        "php": "^8.4",
+        "symfony/tui": "8.1.x"
     },
     "require-dev": {
-        "doctrine/coding-standard": "15.0.x-dev",
-        "phpunit/phpunit": "13.4.x-dev",
+        "doctrine/coding-standard": "^14.0",
+        "phpunit/phpunit": "^13.3",
         "symfony/process": "^7.2"
     },
     "license": "MIT",
@@ -27,7 +28,7 @@
             "email": "git@alcaeus.org"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "config": {
         "allow-plugins": {
             "dealerdirect/phpcodesniffer-composer-installer": true
