@@ -1,0 +1,36 @@
+{
+    "name": "alcaeus/tui-games",
+    "description": "Collection of CLI games to be used in Symfony TUI applications",
+    "type": "library",
+    "require": {
+        "symfony/tui": "8.2.x-dev"
+    },
+    "require-dev": {
+        "doctrine/coding-standard": "15.0.x-dev",
+        "phpunit/phpunit": "13.4.x-dev",
+        "symfony/process": "^7.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Alcaeus\\TuiGames\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Alcaeus\\TuiGames\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andreas Braun",
+            "email": "git@alcaeus.org"
+        }
+    ],
+    "minimum-stability": "dev",
+    "config": {
+        "allow-plugins": {
+            "dealerdirect/phpcodesniffer-composer-installer": true
+        }
+    }
+}
